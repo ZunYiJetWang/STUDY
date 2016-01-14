@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link href="../css/sigNin.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+ <div class="container">
+     <div class="sigNin-top clearFix">
+         <a class="left" href="../php/index.php">
+             <img alt="logo" src="../image/logo.jpg">
+         </a>
+         <span class="left">登录</span>
+     </div><!--登录的上面的部分-->
+     <div class="sigNin-wrap clearFix">
+         <form class="right" action="../php/mysqluse/login.php" method="post">
+             <div class="row">
+                 <label for="email">邮箱</label>
+                 <input id="email" type="email" name="email" required="required" autocomplete="off" placeholder="请输入邮箱">
+             </div>
+             <div class="row">
+                 <label for="password">密码</label>
+                 <input  id="password" type="password" name="password" required="required" autocomplete="off" placeholder="请输入密码">
+             </div>
+             <div class="sigNin-submit ">
+                 <input type="submit" value="登录">
+             </div>
+
+         </form>
+     </div>
+
+ </div><!--主要的容器-->
+ <footer id="footer">
+     <p class="copyRight">Copyright 2015 HDU　Multimedia Technology Design</p>
+     <p class="author">违法信息举报、侵权投诉、使用问题，意见建议.请联系QQ:983433479</p>
+     <p class="intro">本站所有内容均来自互联网,不可用于商业传播</p>
+ </footer>
+
+</body>
+</html>

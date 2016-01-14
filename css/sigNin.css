@@ -1,0 +1,88 @@
+html,body,div,p,img,q,em,tbody,tfoot,thead,dt,dd,ol,ul ,li,form,label,
+table,caption,th,tr,td,h5{
+    margin: 0;
+    padding:0;
+}
+.clearFix{
+    overflow: auto;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+html,body{
+    height:100%;
+}/*margin :0 auto 设置的意思就是我们的网页的居中显示*/
+.container{
+    width:980px;
+    margin:0 auto;
+}
+body{
+    background:#fff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+img{
+    border:none;
+}
+a{
+    text-decoration: none;
+}
+.copyRight,.author,.intro{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+}
+#footer{
+    background: #f5f5f5;
+    padding:10px 0px;
+}
+.sigNin-top{
+    margin-top: 40px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 10px;
+}
+.sigNin-top span{
+    line-height: 42px;
+    margin-left: 20px;
+    color: #666;
+    font-size: 18px;
+}
+.sigNin-wrap {
+    margin-top: 10px;
+    padding:10px;
+    min-height: 380px;
+}
+.sigNin-wrap form{
+    padding:0px 15px 15px 15px;
+}
+.sigNin-wrap .row{
+    margin-top: 35px;
+}
+.sigNin-wrap .row input{
+    width: 220px;
+    height: 20px;
+    padding:5px;
+    outline: none;
+    font-size: 16px;
+    border:1px solid #ccc;
+}
+.sigNin-submit {
+    margin-top: 35px;
+}
+.sigNin-submit input{
+    width:232px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 15px;
+    background: #84BE8E;
+    border:none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 38px;
+}
+input{
+    background: none;
+}

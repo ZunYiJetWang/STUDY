@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link href="../css/sigUp.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../jqury/jquery-1.9.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sigUp-top clearFix">
+            <a href="../php/index.php" class="left"><img alt="" src="../image/logo.jpg"> </a>
+            <span class="left">注册账号</span>
+            <div class="toLogin right">
+                <p class="left">已有账号？</p>
+                <a class="left"  href="../html/signin.html">立即登录</a>
+            </div>
+        </div>
+        <div class="sigUp-wrap">
+            <form action="../php/mysqluse/reg.php" method="post">
+                <div class="row">
+                    <label for="email">邮箱</label>
+                    <input id="email" type="email" name="email" required="required" autocomplete="off" placeholder="请输入邮箱">
+                </div>
+                <div class="row">
+                    <label for="name">名称</label>
+                    <input id="name" type="text" name="username" required="required" autocomplete="off" placeholder="请输入用户名">
+                </div>
+                <div class="row">
+                    <label for="password">密码</label>
+                    <input  id ="password" type="password" name="password" required="required" autocomplete="off" placeholder="请输入密码">
+                </div>
+                <div class="sigUp-submit">
+                    <input type="submit"  value="立即注册">
+                </div>
+            </form>
+        </div>
+    </div><!--container-->
+    <footer id="footer">
+        <p class="copyRight">Copyright 2015 HDU　Multimedia Technology Design</p>
+        <p class="author">违法信息举报、侵权投诉、使用问题，意见建议.请联系QQ:983433479</p>
+        <p class="intro">本站所有内容均来自互联网,不可用于商业传播</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+#contact p {
+    left: 660px;
+    top: 160px;
+    padding-top: 160px;
+    padding-left: 660px;
+    color: #666;
+}
+#contact {
+   background-image: url(../image/map.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 405px;
+    width: 887px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}

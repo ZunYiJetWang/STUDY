@@ -1,0 +1,238 @@
+html,body,div,p,img,q,em,tbody,tfoot,thead,dt,dd,ol,ul ,li,form,label,
+table,caption,th,tr,td,h5,h4,h6{
+    margin: 0;
+    padding:0;
+}
+.header-top{
+    width:100%;
+    height:35px;
+    background: #f5f5f5;
+    font-size:12px;
+    border-bottom:1px solid #eee;
+    color: rgb(108, 108, 108);
+}
+.clearFix{
+    overflow: auto;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+html,body{
+    height:100%;
+}
+/*margin :0 auto 设置的意思就是我们的网页的居中显示*/
+.container{
+    width:980px;
+    margin:0 auto;
+}
+ ul li{
+    list-style: none;
+}
+.topBarLeft ul li{
+     float:left;
+     margin-left: 25px;
+     line-height: 35px;
+ }
+.topBarLeft span{
+    display: block;
+    line-height: 35px;
+}
+.topBarLeft ul li a:hover{
+    color:#ff7d00;
+}
+.topBarRight ul li{
+    float:right;
+    line-height: 35px;
+    margin-right: 35px;
+}
+.topBarRight ul li a{
+    color: rgb(108, 108, 108)
+}
+.topBarLeft ul li a{
+    color: rgb(108, 108, 108)
+}
+.topBarRight ul li a:hover{
+    color:#ff7d00;
+}
+body{
+    background:#fff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+img{
+    border:none;
+}
+a{
+    text-decoration: none;
+}
+.top-nav{
+    margin-top: 20px;
+}
+.nav{
+    background:#40AA53;
+}
+.top-nav ul li{
+    float:left;
+}
+.top-nav ul li a{
+    display: block;
+    padding:10px 16px;
+    font-weight: bold;
+    color: #fff;
+}
+.top-nav ul li a:hover{
+    background: #84BE8E;
+}
+/*设置最低的宽度*/
+.wrap{
+    min-height: 100%;
+}
+.listVideo{
+    margin-top: 10px;
+}
+/*设置我们的颜色，下划线*/
+.listVideo-top{
+    border-bottom: 3px solid #84BE8E;
+    padding-bottom: 3px;
+    color: #aaa;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.listVideo-top h5{
+    font-size: 15px;
+}
+.videoItem{
+    border-bottom-width: 200px;
+    border: 1px solid #e3e3e3;
+    padding:14px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+/*margin-right 设置的大小超过了我们的预测的范围了*/
+.listVideo-wrap{
+    width: 1020px;
+}
+.videoItem h5 a{
+    color:#474747;
+}
+.videoItem h5 a:hover{
+    color: #ff7d00;
+}
+.videoItem:hover{
+    border:1px solid #84BE8E ;
+}
+/*视屏的标题的文字颜色*/
+.video-tittle{
+    color:#474747;
+}
+.info,.video-tittle{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.copyRight,.author,.intro{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+}
+#footer{
+    background: #f5f5f5;
+    padding:10px 0px;
+}
+.video-page{
+    margin-top: 10px;
+}
+.video-page-left{
+    border:1px solid #e3e3e3;
+    padding: 10px;
+}
+.item-click-amount{
+    color: #666;
+    font-size: 13px;
+    margin-left: 20px;
+}
+.detail-img {
+    margin-top: 10px;
+    padding-top:10px;
+    border-top:3px solid #84BE8E;
+}
+.detail-img img {
+    align: center;
+}
+.detail-desc {
+    margin-top: 10px;
+}
+
+.detail-desc-top {
+    height: 3px;
+
+}
+.detail-desc-content {
+    width: 612px;
+    margin-top: 10px;
+
+    padding-bottom: 10px;
+    overflow:hidden;
+    word-break:break-all;
+}
+.detail-desc-content p{
+    line-height: 25px;
+}
+.video-page-right {
+    width:324px;
+    border: 1px solid #e3e3e3;
+    padding:5px;
+    margin-left:10px;
+    margin-left:10px;
+}
+.about-cat-title {
+    border-bottom:2px solid #84BE8E;
+    padding-bottom:5px;
+    margin-left:5px;
+}
+.about-cat-title h6 {
+    color:#474747;
+}
+.about-cat-item {
+    width:140px;
+    height:210px;
+    overflow:hidden;
+    border: 1px solid #e3e3e3;
+    padding:5px;
+    margin-left:5px;
+    margin-top:10px;
+}
+
+.about-cat-item a {
+    font-size:12px;
+    color:#474747;
+}
+
+.about-cat-item a:hover{
+    color:#84BE8E;
+}
+.center ul li{
+    list-style: none;
+    padding: 10px 5px 5px 5px;
+    float: left;
+
+}
+.center{
+    margin: 0 auto;
+    text-align: center;
+    clear: left;
+    float: left;
+    padding-left: 12px;
+    font-size: 14px;
+    width: 970px;
+}
+.center ul li a{
+    text-decoration:none;
+    color:#474747;
+
+}
+
+.center ul li span{
+    display:inline;
+}

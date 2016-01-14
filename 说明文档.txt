@@ -1,0 +1,3 @@
+数据库的资料子啊study.sql中。
+需要创建个用户，wang,密码，wang;
+网页的入口地址php/index.php
